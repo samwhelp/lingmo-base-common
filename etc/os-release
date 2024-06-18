@@ -11,3 +11,4 @@ ID_LIKE=debian
 HOME_URL="https://lingmo.org"
 SUPPORT_URL="https://bbs.lingmo.org/"
 COMMUNITY_URL="https://bbs.lingmo.org/"
+APT_SOURCES="https://packages.lingmo.org"
