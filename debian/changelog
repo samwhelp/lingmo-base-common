@@ -1,3 +1,10 @@
+base-files (24.2.2-0) unstable; urgency=medium
+
+  [Elysia]
+  * Import changes form Debian offical repo.
+
+ -- Elysia <c.elysia@foxmail.com>  Tue, 16 Jun 2024 19:21:00 +0800
+
 base-files (24.2.0.0~lingmo2beta35) unstable; urgency=medium
 
   * Release new version

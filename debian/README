@@ -95,5 +95,12 @@ freedom to remove those directories without them being created again
 when base-files is upgraded. Therefore, if you are running any sort of
 compliance tests, you should do it on newly installed systems only.
 
+Q. My system (when I do "dpkg -s base-files") shows /etc/profile as
+an "obsolete conffile". Is this ok?
+
+A. Yes. The file was handled by base-files as a conffile in the dpkg sense
+in the past, so dpkg may consider the file as an obsolete conffile.
+There is currently not a way to tell dpkg to unregister it as a conffile
+without removing it, so the best approach for now is to do nothing about it.
 
 Santiago Vila <sanvila@debian.org>
