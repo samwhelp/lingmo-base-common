@@ -1,5 +1,5 @@
-PRETTY_NAME="Lingmo OS #OSNAME# polaris/beta3"
-NAME="Lingmo OS #OSNAME#"
+PRETTY_NAME="Lingmo OS 2.0.0~beta3.6 (Polaris)"
+NAME="LingmoOS"
 RELEASE="Beta"
 VERSION_ID="2.0.0"
 VERSION="2.0.0 (Polaris)"
