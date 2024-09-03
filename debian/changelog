@@ -1,3 +1,10 @@
+base-files (24.9.2-0) hydrogen; urgency=medium
+
+  [Lingmo OS Team]
+  * Release.
+
+ -- Lingmo OS Team <team@lingmo.org>  Tue, 3 Sep 2024 23:00:00 +0800
+
 base-files (24.2.2-0) unstable; urgency=medium
 
   [Elysia]
