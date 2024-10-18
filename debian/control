@@ -10,7 +10,7 @@ Package: base-files
 Provides: base, usr-is-merged
 Architecture: any
 Pre-Depends: awk
-Depends: ${misc:Depends}, system-core
+Depends: ${misc:Depends}, system-core | lingmo-workspace-base
 Essential: yes
 Priority: required
 Replaces: base, miscutils, dpkg (<= 1.15.0)
