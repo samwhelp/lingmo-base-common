@@ -1,7 +1,10 @@
 #!/bin/sh
 set -e
 
-rm /etc/apt/sources.list
+# if [ -f "/etc/apt/sources.list" ]; then
+#       rm /etc/apt/sources.list
+# fi
+rm -f /etc/apt/sources.list
 
 if [ "$1" = "install" ] || [ "$1" = "upgrade" ]; then
   for d in bin lib lib32 lib64 libo32 lib64 sbin; do
